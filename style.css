@@ -1,7 +1,6 @@
-/* 1. ЭЛЕМЕНТНЫЕ СЕЛЕКТОРЫ (Element selector) - Задание 8
-   Применяются ко всем тегам определенного типа */
+
 body {
-    font-family: Arial, sans-serif; /* Типографика (Задание 9) */
+    font-family: Arial, sans-serif; 
     background-color: #f4f4f9;
     color: #333;
     margin: 0;
@@ -12,29 +11,27 @@ h1, h2, h3 {
     text-align: center;
 }
 
-/* 2. СЕЛЕКТОР КЛАССА (Class selector) - Задание 8
-   Применяется к элементам с атрибутом class="profile-card". Можно использовать много раз. */
+
 .profile-card {
     background-color: #ffffff;
-    border: 2px solid #ddd;       /* Box model: рамка (Задание 11) */
-    padding: 20px;                /* Box model: внутренний отступ */
-    margin: 20px auto;            /* Box model: внешний отступ */
-    width: 80%;                   /* Box model: ширина */
+    border: 2px solid #ddd;       
+    padding: 20px;                
+    margin: 20px auto;            
+    width: 80%;                   
     box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
 }
 
-/* Настройка картинки (Задание 13) */
+
 .profile-pic {
     width: 150px;
     height: 150px;
-    border-radius: 50%; /* Делает фото круглым */
+    border-radius: 50%; 
     border: 3px solid #0056b3;
     display: block;
     margin: 0 auto;
 }
 
-/* 3. СЕЛЕКТОР ПОТОМКА (Descendant selector) - Задание 8
-   .site-nav ul означает: "применить стили ко всем <ul>, которые находятся ВНУТРИ элемента с классом site-nav" */
+
 .site-nav ul {
     list-style-type: none;
     background-color: #333;
@@ -54,19 +51,18 @@ h1, h2, h3 {
     font-size: 18px;
 }
 
-/* Состояния навигации: наведение мыши (Задание 12) */
+
 .site-nav a:hover {
     color: #ffeb3b;
     text-decoration: underline;
 }
 
-/* Состояния: фокус с клавиатуры (Задание 12) */
+
 .site-nav a:focus, button:focus, input:focus {
     outline: 3px solid #ffeb3b;
 }
 
-/* 4. ID СЕЛЕКТОР (ID selector) - Задание 8
-   Применяется только к ОДНОМУ уникальному элементу на странице (id="schedule"). */
+
 #schedule {
     margin: 20px auto;
     width: 80%;
@@ -75,7 +71,7 @@ h1, h2, h3 {
     border: 1px solid #ddd;
 }
 
-/* Стилизация таблицы расписания */
+
 #schedule table {
     width: 100%;
     border-collapse: collapse;
@@ -92,7 +88,7 @@ h1, h2, h3 {
     color: white;
 }
 
-/* Стили кнопок */
+
 button {
     background-color: #0056b3;
     color: white;
@@ -107,7 +103,7 @@ button:hover {
     background-color: #004494;
 }
 
-/* Стили формы */
+
 .form-group {
     margin-bottom: 15px;
 }
